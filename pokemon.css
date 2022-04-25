@@ -1,0 +1,78 @@
+table{
+    border: 1px;
+    border-collapse: collapse;
+    width: fit-content;
+    margin:auto;
+}
+table td,th{
+    border: 1px solid;
+    padding: 0.5vh 7vh 0.5vh 1vh;
+    text-align: left;
+}
+
+#search{
+    margin-left: 7vh;
+    padding: 1vh;
+    font-size: 12px;
+}
+
+#container{
+    width: 60%;
+    margin: 5vh auto;
+  
+    padding: 3vh;
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+/* 
+.catch(()=>{
+    var url=fetch(`https://pokeapi.co/api/v2/pokemon/bulbasaur/`);
+
+    var box=document.createElement("div");
+    
+    data.json().then((data1)=>{
+        
+        var id=document.createElement("p");
+        id.innerText="id : "+data1.id;
+
+        var name=document.createElement("p");
+        name.innerText="Name : "+data1.forms[0].name;
+        
+        
+        var height=document.createElement("p");
+        height.innerText="height : "+data1.height;
+        
+        var weight=document.createElement("p");
+        weight.innerText="weight : "+data1.weight;
+        
+        var ability_str="";
+        data1.abilities.forEach((ability)=>{
+
+            ability_str=ability_str+(ability.ability.name)+", "
+               
+
+        })
+        
+        
+        var abilities=document.createElement("p");
+        abilities.innerText="Abilities : "+ability_str;
+        
+        
+        var moves_str="";
+        data1.moves.forEach((move)=>{
+
+            moves_str=moves_str+(move.move.name)+", "
+               
+
+        })
+
+        var moves=document.createElement("p");
+        moves.innerText="Moves : "+moves_str;
+
+
+        // bulbasaur
+        box.append(id,name,height,weight,abilities,moves)
+
+        document.querySelector("#container").append(box);
+})
+}) */
